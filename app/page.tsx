@@ -3,6 +3,7 @@ import { ArrowRight, Coffee } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import { Navbar } from "@/components/navbar"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -33,8 +34,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="flex items-center justify-center">
-                <img
-                  src="/placeholder.svg?height=400&width=400"
+                <Image
+                  src="/coffee-time.svg?height=400&width=400"
                   alt="Platform preview"
                   className="aspect-square rounded-lg object-cover"
                   width={400}
